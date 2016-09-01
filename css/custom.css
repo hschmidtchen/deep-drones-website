@@ -27,7 +27,11 @@
 }
 
 .block-process::before, .block-process::after {
-     content: " ";
+     content: " "video {  
+   width:100%; 
+   max-width:500px; 
+   height:auto; 
+};
      display: table;
 }
 
@@ -356,6 +360,11 @@
   z-index: -2;
 }
 
+video {  
+   width:100%; 
+   max-width:720px; 
+   height:auto; 
+}
 
 
 
