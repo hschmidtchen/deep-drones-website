@@ -1,3 +1,8 @@
+/*TODO: Remove in final version*/
+.TODO {
+  color: red !important;
+}
+
 #cdtmLogo {
   width: 80%;
   max-width: 60vw;
