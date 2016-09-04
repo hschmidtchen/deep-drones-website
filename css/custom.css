@@ -45,17 +45,23 @@ border-collapse:collapse;
     vertical-align: top
 }
 
+.tabs-vertical .tabs-navigation {
+  min-width: 280px;
+}
+
 .teamTab .teamName {
+  background-color: red;
   color: black;
   padding:0;
 }
 
 .teamTab .raceTimes {
-    padding: 0;
-    color: grey;
-    text-align: right;
-    font-weight: 300;
-    font-size: 0.8em;
+  background-color: yellow;
+  padding: 0;
+  color: grey;
+  text-align: right;
+  font-weight: 300;
+  font-size: 0.8em;
 }
 
 #cdtmLogo {
