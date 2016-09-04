@@ -50,13 +50,11 @@ border-collapse:collapse;
 }
 
 .teamTab .teamName {
-  background-color: red;
   color: black;
   padding:0;
 }
 
 .teamTab .raceTimes {
-  background-color: yellow;
   padding: 0;
   color: grey;
   text-align: right;
