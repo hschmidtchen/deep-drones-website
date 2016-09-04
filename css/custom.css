@@ -3,6 +3,61 @@
   color: red !important;
 }
 
+#raceTable .tg  {
+border-collapse:collapse;
+  border-spacing:0;
+  border-color:#ccc;
+}
+
+#raceTable .tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #ccc;
+    color: #333;
+    background-color: #fff;
+}
+
+#raceTable .tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #ccc;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+#raceTable .tg .tg-baqh {
+    text-align: center;
+    vertical-align: top
+}
+
+#raceTable .tg .tg-yw4l {
+    vertical-align: top
+}
+
+.teamTab .teamName {
+  color: black;
+  padding:0;
+}
+
+.teamTab .raceTimes {
+    padding: 0;
+    color: grey;
+    text-align: right;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
 #cdtmLogo {
   width: 80%;
   max-width: 60vw;
