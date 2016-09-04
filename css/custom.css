@@ -27,6 +27,14 @@
   margin: 20px;
 }
 
+.student {
+  padding: 0;
+}
+
+.student .subtitle {
+  font-size: 0.9em;
+}
+
 .footerList {
   padding-left:0;
 }
