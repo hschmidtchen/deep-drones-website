@@ -39,6 +39,14 @@
   font-size: 0.9em;
 }
 
+.student .image-box-description {
+  margin-bottom: 0;
+}
+
+.student.col-xs-6 {
+  margin-top: 20px;
+}
+
 .footerList {
   padding-left:0;
 }
