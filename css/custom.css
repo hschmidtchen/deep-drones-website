@@ -31,6 +31,10 @@
   padding: 0;
 }
 
+.student h5 {
+  margin-bottom: 2px;
+}
+
 .student .subtitle {
   font-size: 0.9em;
 }
