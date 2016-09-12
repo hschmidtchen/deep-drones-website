@@ -819,7 +819,7 @@
                           </div>
 
                           <h4>Description</h4>
-                          <p class="TODO">The YOLO Drone localizes and follows people with the help of the YOLO Deep Network. Since in many scenes more than one person might be in the picture we added special person features to detect the right person. An convinient solution was the colour of the person's shirt. Hence, we require the "operator" of the drone to wear a yellow shirt.</p>
+                          <p>WasIstDasFuer1Drone uses OpenCV face recognition (Haar feature-based cascade classifiers) to recognise faces in front of the quadrocopter and then tries to follow a authorized face. After a face was recognised by OpenCV the face is fed into a neural net for classification. The neural net decides if the person is allowed to control the drone or not.</p>
                           <p><a href="" target="_blank"><img src="https://github.com/favicon.ico"/>  Check out the repository!</a></p>
 
                           <h4>Video</h4>
