@@ -1014,8 +1014,12 @@
                           </div>
 
                           <h4>Description</h4>
-                          <p class="TODO">The YOLO Drone localizes and follows people with the help of the YOLO Deep Network. Since in many scenes more than one person might be in the picture we added special person features to detect the right person. An convinient solution was the colour of the person's shirt. Hence, we require the "operator" of the drone to wear a yellow shirt.</p>
-                          <p><a href="" target="_blank"><img src="https://github.com/favicon.ico"/>  Check out the repository!</a></p>
+                          <p>The goal of our approach was to combine the power of neuronal network based classification with a simple, but robust finite state approach to achieve a completely autonomous navigation of the drone through the three goals.
+                          <br>
+                          In order to meet this challenges, we employed multiple strategies. Firstly, we used red-white striped barrier tape, to make the goal stand out against its background. Secondly, we programed an algorithm to take pictures every half a second and collected over 6.000 sample pictures of these different states, with varying background, light conditions, distances and angles. Thirdly, we used opencv2 to flip the pictures horizontally in order to double the amount of training data.
+                          We then fed the data into the Alex’s net algorithm from Caffe to get an algorithm that can classify any incoming picture into the four states.
+                          </p>
+                          <p><a href="https://github.com/vitarico/DeepLearningDrones" target="_blank"><img src="https://github.com/favicon.ico"/>  Check out the repository!</a></p>
 
                           <h4>Video</h4>
                           <p><video width="480" controls muted class="teams-video">
